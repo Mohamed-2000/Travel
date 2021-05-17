@@ -1,9 +1,5 @@
 /*global */
-
-
-/* Global */
 :root {
-    
     --white: #fff;
     --gray : #7D7987;
     --black: #000;
@@ -11,7 +7,7 @@
 
 html,body {
     font-family: 'Mulish', sans-serif;
-    background-color: #FBFCFD;
+    background-color: var(--white);
     transition: all 0.1s ease-in-out;
     height: auto;
 }
@@ -90,6 +86,7 @@ nav a:hover {
 {
     margin-top: 200px;
     width: 350px;
+    margin-right: 1%;
 }
 
 .first h2 {font-size: 38px;}
@@ -97,7 +94,7 @@ nav a:hover {
 .btn {
     position: absolute;
     margin-top: 10px;
-    padding: 10px 45px;
+    padding: 18px 45px;
     background-color: #458FF6;
     color: var(--white);
     border: 1px solid #fff;
@@ -108,27 +105,26 @@ nav a:hover {
 }
 
 .second-img {
-    width: 550px;
-    margin-top: 100px ;
-    margin-right: 45px;   
+    width: 600px;
+    margin-top: 100px;
+    margin-right: 2%;
+    position: relative; 
 }
 
-.second-img img {
-    max-width: 100%;
-    height: auto;
-}
+.second-img img {max-width: 100%;}
 
 .our-services {  
     background-image: url(./img/Frame\ \(6\).png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: auto;
+    margin: 10% auto;
 }
 
 section .section {
     text-align: center;
     width: 60%;
-    margin: 60px auto;
+    margin: 6% auto;
 }
 
 section .section h3{
@@ -172,11 +168,11 @@ section .section h3{
 }
 
 .btn-second{
-    padding: 10px 45px;
+    padding: 14px 45px;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    border-radius: 20px;
+    border-radius: 25px;
     color: #5C9DF7;
     border: 1px solid #5C9DF7;
     transition: all 0.1s ease-in-out;   
@@ -196,8 +192,8 @@ section .section h3{
 }
 
 .download img {
-    align-items: right;
     position: absolute;
+    max-width: 100%;
 }
 .button {
     margin-top: 10px;
@@ -475,7 +471,7 @@ q {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 14%;
+    top: 18%;
 }
 
  #travel {margin-right: 50%;} 
